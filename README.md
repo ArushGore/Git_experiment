@@ -6,4 +6,5 @@
 * add two text boxes
 * enter latitude and longitude 
 * map should navigate to that
+* setup ssh key [done]
 
