@@ -22,10 +22,24 @@
         var node = document.getElementById('hello').innerHTML
         console.log(node)
         console.log(node.length)
-        function moveRight(noth){
+        function moveRight(){
             console.log(node.length)
             for (let i = 0; i < node.length; i++){
-                console.log(node[i])
+               // console.log(node[i])
+                if(node[i] == "9"){
+                    console.log(node[i])
+                    console.log(node[i+1])
+                    node[i+1] = "0";
+                  //  console.log(node[i])
+                  //  console.log(node[i+1])
+                    node[i] = "o";
+                  //  console.log(node[i])
+                  //  console.log(node[i+1])
+                    console.log(node)
+                }
+                else{
+                    console.log("this not a 0")
+                }
             }
         }
         function moveLeft(node){
